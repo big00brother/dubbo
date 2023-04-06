@@ -10,7 +10,7 @@ public interface UserOrBuilder extends
   /**
    * <code>string uid = 1;</code>
    */
-  java.lang.String getUid();
+  String getUid();
   /**
    * <code>string uid = 1;</code>
    */
@@ -20,7 +20,7 @@ public interface UserOrBuilder extends
   /**
    * <code>string username = 2;</code>
    */
-  java.lang.String getUsername();
+  String getUsername();
   /**
    * <code>string username = 2;</code>
    */

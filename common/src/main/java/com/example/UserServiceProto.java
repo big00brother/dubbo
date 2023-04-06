@@ -32,7 +32,7 @@ public final class UserServiceProto {
   private static  com.google.protobuf.Descriptors.FileDescriptor
       descriptor;
   static {
-    java.lang.String[] descriptorData = {
+    String[] descriptorData = {
       "\n\021userservice.proto\022\003api\"\032\n\013UserRequest\022" +
       "\013\n\003uid\030\001 \001(\t\"%\n\004User\022\013\n\003uid\030\001 \001(\t\022\020\n\010use" +
       "rname\030\002 \001(\t27\n\013UserService\022(\n\007GetUser\022\020." +
@@ -56,13 +56,13 @@ public final class UserServiceProto {
     internal_static_api_UserRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_api_UserRequest_descriptor,
-        new java.lang.String[] { "Uid", });
+        new String[] { "Uid", });
     internal_static_api_User_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_api_User_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_api_User_descriptor,
-        new java.lang.String[] { "Uid", "Username", });
+        new String[] { "Uid", "Username", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)

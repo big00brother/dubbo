@@ -10,7 +10,7 @@ public interface UserRequestOrBuilder extends
   /**
    * <code>string uid = 1;</code>
    */
-  java.lang.String getUid();
+  String getUid();
   /**
    * <code>string uid = 1;</code>
    */
