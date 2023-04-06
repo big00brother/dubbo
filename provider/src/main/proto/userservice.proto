@@ -2,7 +2,7 @@ syntax = "proto3";
 package api;
 option go_package = "./;api";
 option java_multiple_files = true;
-option java_package = "com.zhouyu";
+option java_package = "com.example";
 option java_outer_classname = "UserServiceProto";
 service UserService {
     rpc GetUser (UserRequest) returns (User) {}
